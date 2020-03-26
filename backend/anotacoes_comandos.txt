@@ -1,0 +1,15 @@
+1995  npm install sqlite3 --save 
+ 
+ 
+ 1993  npx knex migrate:make create_ongs 
+ 
+ 1996  npx knex migrate:make create_ongs
+ 
+ 1998  npx knex migrate:latest
+
+# Desfaz a última migration
+npx knex migrate:rollback
+
+#Migrations que ja foram executadas
+npx knex migrate:status
+
