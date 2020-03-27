@@ -24,7 +24,7 @@ module.exports = {
         // Retorna o total de registros no cabeçaljo da requisição de resposta
         response.header('X-Total-Count', qtdRegisters['count(*)'])
 
-        return response.json({ incidents })
+        return response.json( incidents )
     },
     
     async create(request, response){
